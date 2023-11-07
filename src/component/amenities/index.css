@@ -1,0 +1,15 @@
+.amenities {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.amenities__list {
+  display: grid;
+  gap: 12px;
+}
+
+.value__line {
+  color: #6c757d;
+  text-decoration: line-through;
+}

@@ -1,0 +1,15 @@
+.attract__block {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.attract__list {
+  display: grid;
+  gap: 24px;
+}
+
+.attract__list-item {
+  color: #000;
+  font-size: 16px;
+}

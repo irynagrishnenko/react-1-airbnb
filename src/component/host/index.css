@@ -1,0 +1,43 @@
+.host {
+  display: flex;
+  flex-direction: column;
+  gap: 28px;
+}
+
+.host__title {
+  display: flex;
+  gap: 20px;
+}
+.host__img {
+  width: 80px;
+  height: 80px;
+  border-radius: 80px;
+}
+
+.host__data {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  align-self: stretch;
+}
+
+.host__sub-block {
+  display: flex;
+  gap: 16px;
+}
+
+.host__sub-value {
+  display: flex;
+  gap: 16px;
+  align-items: center;
+}
+
+.host__sub-value:not(:last-child)::after {
+  content: "";
+  display: block;
+  height: 4px;
+  width: 4px;
+  border-radius: 4px;
+  background-color: #000;
+}

@@ -1,0 +1,10 @@
+.add {
+  display: flex;
+  flex-direction: column;
+  gap: 36px;
+}
+
+.add__list {
+  display: grid;
+  gap: 36px;
+}
